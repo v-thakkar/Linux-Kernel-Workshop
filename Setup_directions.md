@@ -6,7 +6,7 @@ sudo apt-get install git
 
 After the installation, you need to tell git what your name and email address is, so that it can be used in the authorship information in the git commit. Create a file called .gitconfig and add lines like these to it:
 
-[user]
+> [user]
    name = Your Name
    email = your.email@example.com
 
