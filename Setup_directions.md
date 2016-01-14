@@ -1,4 +1,4 @@
-Note: This document assumes that you are running Debian based distro.
+##**Note: This document assumes that you are running Debian based distro.**
 
 **1. Set up Git**
 
