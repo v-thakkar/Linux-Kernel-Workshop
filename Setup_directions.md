@@ -29,6 +29,17 @@ If you want to use linux-next then you can use following commands but then you n
 
 > git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
+If you have cloned mainline Linux repository, then add a remote tracking branch for linux-next:
+
+> cd linux
+
+> git remote add linux-next git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+
+Fetch linux-next
+
+> git fetch linux-next
+
+
 #**3. Setting up tools**
 
 Install vim
