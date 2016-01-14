@@ -40,7 +40,7 @@ Fetch linux-next
 > git fetch linux-next
 
 
-#**3. Setting up tools**
+#**3. Installing up tools**
 
 Install vim
 
@@ -58,4 +58,13 @@ If you want to send patches with git send-email command:
 
 > sudo apt-get install git-email
 
+Install some packages:
+
+> sudo apt-get install libncurses5-dev gcc make exuberant-ctags libssl-dev
+
+#**4. Gmail setup**
+
+In gmail, go click the gear icon, go to "Settings", go to the tab "Forwarding POP/IMAP", and click the "Configuration instructions" link at the very bottom of the page.
+
+Then click "I want to set up IMAP". At the bottom of the page, under the paragraph about configuring your mail client, select "Other". Note the outgoing mail server information, and copy it into the .esmtprc file, as shown in the next section.
  
