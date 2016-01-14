@@ -40,7 +40,38 @@ Fetch linux-next
 > git fetch linux-next
 
 
-#**3. Installing tools**
+#**3. Configuring, building and compiling the kernel**
+
+Kernel compilation takes lot of time. So, it would be better to complie it first time at home.
+
+Duplicating current configuration
+
+> cp /boot/config-`uname -r`* .config 
+
+Building the kernel
+
+> make
+
+Installing the kernel
+
+> sudo make modules_install install 
+
+Now, to make the grub boot menu always appear under Ubuntu, run
+
+> sudo vim /etc/default/grub 
+
+And then delete following lines:
+
+> GRUB_HIDDEN_TIMEOUT=0 GRUB_HIDDEN_TIMEOUT_QUIET=true 
+
+Now, update the grub
+
+> sudo update-grub2 
+
+** After this step reboot the machine, you should be able to boot in to your new kernel.**
+Congratulations!
+
+#**4. Installing tools**
 
 Install vim
 
@@ -62,9 +93,9 @@ Install some packages:
 
 > sudo apt-get install libncurses5-dev gcc make exuberant-ctags libssl-dev
 
-#**4. Gmail setup**
+
+#**5. Gmail setup** [This can be done during workshop as well]
 
 In gmail, go click the gear icon, go to "Settings", go to the tab "Forwarding POP/IMAP", and click the "Configuration instructions" link at the very bottom of the page.
 
 Then click "I want to set up IMAP". At the bottom of the page, under the paragraph about configuring your mail client, select "Other". Note the outgoing mail server information, and copy it into the .esmtprc file, as shown in the next section.
- 
