@@ -68,7 +68,7 @@ Now, update the grub
 
 > sudo update-grub2 
 
-** After this step reboot the machine, you should be able to boot in to your new kernel.**
+**After this step reboot the machine, you should be able to boot in to your new kernel.**
 Congratulations!
 
 #**4. Installing tools**
