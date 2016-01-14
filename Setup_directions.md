@@ -40,7 +40,7 @@ Fetch linux-next
 > git fetch linux-next
 
 
-#**3. Installing up tools**
+#**3. Installing tools**
 
 Install vim
 
