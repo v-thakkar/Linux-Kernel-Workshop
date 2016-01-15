@@ -115,3 +115,33 @@ set softtabstop=8
 set shiftwidth=8
 set noexpandtab
 ```
+
+#**7. Configuring estmp and mutt** [This can be done during workshop as well]
+
+First, create a .esmtprc file with the right permissions:
+
+> ```
+touch ~/.esmtprc
+chmod g-rwx ~/.esmtprc
+chmod o-rwx ~/.esmtprc
+```
+
+Edit the .esmtprc in your home directory, and add lines like this:
+
+> ```
+identity "my.email@gmail.com"
+hostname smtp.gmail.com:587
+username "my.email@gmail.com"
+password "ThisIsNotARealPassWord"
+starttls required
+```
+
+Next, set up the mail client, mutt, with some defaults, by creating a .muttrc file in your homedirectory:
+
+> ```
+set sendmail="/usr/bin/esmtp"
+set envelope_from=yes
+set from="Your Name <my.email@gmail.com>"
+set use_from=yes
+set edit_headers=yes
+```
