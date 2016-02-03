@@ -100,7 +100,7 @@ In gmail, go click the gear icon, go to "Settings", go to the tab "Forwarding PO
 
 Then click "I want to set up IMAP". At the bottom of the page, under the paragraph about configuring your mail client, select "Other". Note the outgoing mail server information, and copy it into the .esmtprc file, as shown in the next section.
 
-#**6. Seeting up Vim** [extra]
+#**6. Setting up Vim** [extra]
 
 We need to make sure to enable the C indentation module in our default text editor (vim). Turning on this module will ensure that lines automatically get indented to the right level as you're editing. It saves you from hitting <tab> a lot. You can turn on automatic indentation based on the file type.
 
