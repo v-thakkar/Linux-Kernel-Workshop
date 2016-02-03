@@ -146,7 +146,7 @@ set use_from=yes
 set edit_headers=yes
 ```
 
-#**8. Configuring git** [This can be doen during workshop as well]
+#**8. Configuring git** [This can be done during workshop as well]
 
 If you want to use git send-email to send the patches, then you need to do the following settings in your .gitconfig file:
 
