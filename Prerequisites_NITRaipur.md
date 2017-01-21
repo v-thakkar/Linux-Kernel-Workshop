@@ -58,3 +58,7 @@ Now update the grub.
 Now, reboot after following above steps. You should be able to reboot in to the new kernel.
 Remember you can always go back to your old kernel if things didn't work out. So, do not delete
 the old or default kernel.
+
+#**7. Setup gitconfig for sending patches using git send-email**
+
+You can find the details about this here: https://vthakkar1994.wordpress.com/2017/01/21/sending-patches-with-the-git-send-email/
