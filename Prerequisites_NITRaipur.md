@@ -23,6 +23,7 @@ Then duplicate your current configuration
 #**3. Compiling/building Linux kernel**
 
 > make -jX
+
 Where X is a number like 2 or 4. If you have a dual core, 2 or 3 might be good. Quad core, 4 or 6.
 
 Also, when you run make with a .config file that was copied from a different kernel than the one you were building, you will be prompted to make choices about which new kernel features to enable. To select defualt choices just keep hitting enter. 
