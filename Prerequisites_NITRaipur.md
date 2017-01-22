@@ -18,7 +18,7 @@ Change the location to where kernel source code is cloned.
 
 Then duplicate your current configuration
 
-> cp /boot/config-`uname -r`* .config 
+> cp /boot/config``-`uname -r`* ``.config 
 
 #**3. Compiling/building Linux kernel**
 
