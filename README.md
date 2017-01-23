@@ -16,4 +16,5 @@ This directory contains the slides of my talk/workshop which I gave at first ker
 
 Note that all of this material is prepared based on the time allocated for session(s) and type of audience. 
 
-For the list of commands I run during practical session, please look at this blog.
+For the list of commands I run during practical session, please look at this blog:
+https://vthakkar1994.wordpress.com/2017/01/23/process-of-creating-first-patch/
