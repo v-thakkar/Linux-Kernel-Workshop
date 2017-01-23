@@ -1,4 +1,4 @@
-###**Note: This document assumes that you are running Debian based distro.**
+###**Note: This document assumes that you are running Debian based distro [Ubuntu, Debian etc]. If you are running other distros then usually process is same but packages may have different names.**
 
 ##**1. Session 1**
 #**1. Git**
