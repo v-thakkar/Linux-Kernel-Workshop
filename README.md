@@ -14,7 +14,12 @@ This directory contains the slides and prerequisites of my workshop given at NIT
 
 This directory contains the slides of my talk/workshop which I gave at first kernel meetup and kernel hackathon as well.
 
-Note that all of this material is prepared based on the time allocated for session(s) and type of audience. 
+#**4. UVCE_BLR_Talk:**
 
-For the list of commands I run during practical session, please look at this blog:
-https://vthakkar1994.wordpress.com/2017/01/23/process-of-creating-first-patch/
+These are the slide sof my talk given at the University Visvesvaraya College of Engineering, Bangalore.
+
+**Note that all of the slides are almost same. It is basically prepared based on the duration of talk/workshop and type of the audience.** 
+
+**List of commands:** https://vthakkar1994.wordpress.com/2017/01/23/process-of-creating-first-patch/
+
+**Setting up git-send-email:** https://vthakkar1994.wordpress.com/2017/01/21/sending-patches-with-the-git-send-email/
