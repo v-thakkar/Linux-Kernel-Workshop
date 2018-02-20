@@ -16,7 +16,11 @@ This directory contains the slides of my talk/workshop which I gave at first ker
 
 #**4. UVCE_BLR_Talk:**
 
-These are the slide sof my talk given at the University Visvesvaraya College of Engineering, Bangalore.
+These are the slides of my talk given at the University Visvesvaraya College of Engineering, Bangalore.
+
+#**5. Linux_kernel_workshop_christ:**
+
+These are the slides of my workshop given at Christ University, Bangalore.
 
 **Note that all of the slides are almost same. It is basically prepared based on the duration of talk/workshop and type of the audience.** 
 
